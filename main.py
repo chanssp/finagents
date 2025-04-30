@@ -30,7 +30,8 @@ def main():
     logger.info("Starting FinAgents System")
     
     # Get stocks to analyze - use MSFT for simplicity
-    stocks_to_analyze = ["MSFT"]
+    stocks_to_analyze = ["259960.KS"]
+    # stocks_to_analyze = ["MSFT"]
     print(f"Analyzing stock: {stocks_to_analyze[0]}")
     
     logger.info(f"Stocks to analyze: {stocks_to_analyze}")
